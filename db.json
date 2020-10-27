@@ -34,6 +34,41 @@
 			"type": "typ"
 		}
 	]
+},
+	  {	
+	"id": 2,
+	"relations": [
+		{
+			"left": {
+				"projectName": "proj",
+				"columnName": "col"
+			},
+			"right": {
+				"projectName": "proj2",
+				"columnName": "col2"
+			}
+		}
+	],
+	"projects": [
+		{
+			"openId": 2,
+			"name": "Test",
+			"description": "TestProj",
+			"createDate": "2020-10-08T12:23:34.987",
+			"schemaVersion": "Alpha",
+			"family": "Fam",
+			"fields": [
+				{
+					"dbColumnName": "dbCol",
+					"dbTableName": "dbTab",
+					"forExport": false,
+					"relationstyp": "rel"
+				}
+			],
+			"brix_or_executer": "select blah from blahblah",
+			"type": "typ"
+		}
+	]
 }
   ],
   "comments": [
