@@ -1,8 +1,39 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+	"relations": [
+		{
+			"left": {
+				"projectName": "proj",
+				"columnName": "col"
+			},
+			"right": {
+				"projectName": "proj2",
+				"columnName": "col2"
+			}
+		}
+	],
+	"projects": [
+		{
+			"openId": 1,
+			"name": "Test",
+			"description": "TestProj",
+			"createDate": "2020-10-08T12:23:34.987",
+			"schemaVersion": "Alpha",
+			"family": "Fam",
+			"fields": [
+				{
+					"dbColumnName": "dbCol",
+					"dbTableName": "dbTab",
+					"forExport": false,
+					"relationstyp": "rel"
+				}
+			],
+			"brix_or_executer": "select blah from blahblah",
+			"type": "typ"
+		}
+	]
+}
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
