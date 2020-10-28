@@ -1,6 +1,7 @@
 {
   "posts": [
     {	
+	"id": 1,    
 	"idnr": 41,
 	"relations": [
 		{
@@ -35,8 +36,9 @@
 		}
 	]
 },
-	  {	
-	"idnr": 2,
+	  {
+	"id": 2, 	
+	"idnr": 62,
 	"relations": [
 		{
 			"left": {
